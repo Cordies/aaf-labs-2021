@@ -23,6 +23,4 @@ def console_commands():
             elif command_name == ".exit": func.exit()
             else: print("command name is not correct")
 
-        #print("command name:"+command_name)
-        #print("command_param:"+command_param)
         if command_name == ".exit" and len(right_command.split()) == 1: break
